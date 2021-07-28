@@ -4,15 +4,15 @@
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
 }
 
-.header{
+.header {
   flex: 30%;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ body{
   width: 100%;
 }
 
-.header input{
+.header input {
   width: 200px;
   height: 40px;
   display: flex;
@@ -34,7 +34,7 @@ body{
   padding-left: 10px;
 }
 
-.header button{
+.header button {
   width: 70px;
   height: 87px;
   border: none;
@@ -47,4 +47,45 @@ body{
 .todoList {
   flex: 70%;
   width: 100%;
+  padding-top: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.task {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  color: white;
+  margin: 15px;
+}
+
+.task .content {
+  flex: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task .content span {
+  display: grid;
+  place-items: center;
+  border: 1px solid white;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  border-right: none;
+  background-color: royalblue;
+}
+
+.task button {
+  flex: 20%;
+  border: none;
+  background-color: skyblue;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  cursor: pointer;
 }
